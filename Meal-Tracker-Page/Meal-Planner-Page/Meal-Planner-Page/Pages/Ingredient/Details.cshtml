@@ -1,0 +1,67 @@
+@page
+@model Meal_Planner_Page.Pages.Ingredient.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Ingredient</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.Calories)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.Calories)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.Protein)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.Protein)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.Sodium)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.Sodium)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.TotalSugers)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.TotalSugers)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.TotalFat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.TotalFat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.DietaryFiber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.DietaryFiber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredient.MIdNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredient.MIdNavigation.MId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Ingredient.IngredientId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
