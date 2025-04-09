@@ -35,7 +35,7 @@ namespace Meal_Planner.Pages.Ingredient
                 return NotFound();
             }
             Ingredient = ingredient;
-           ViewData["MId"] = new SelectList(_context.Measurements, "MId", "MId");
+            ViewData["MId"] = new SelectList(_context.Measurements, "MId", "MId");
             return Page();
         }
 

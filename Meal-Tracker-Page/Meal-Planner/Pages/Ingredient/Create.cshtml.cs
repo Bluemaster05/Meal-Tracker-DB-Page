@@ -30,13 +30,24 @@ namespace Meal_Planner.Pages.Ingredient
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            //if (!ModelState.IsValid)
+            //{
+            //    Console.WriteLine("AHHHHh");
+            //    Console.WriteLine(ModelState.IsValid);
+            //    return Page();
+            //}
+            //Console.WriteLine("AHHHWEWFEFSFDS2");
+            try
             {
-                return Page();
+                _context.Ingredients.Add(Ingredient);
+                Console.WriteLine("Does this print??");
+                await _context.SaveChangesAsync();
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Console.WriteLine("YEAH IT DIDNT WORK MY GUY");
             }
 
-            _context.Ingredients.Add(Ingredient);
-            await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
         }

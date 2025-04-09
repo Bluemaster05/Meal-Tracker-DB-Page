@@ -1,11 +1,24 @@
 ﻿@page
-@model IndexModel
+@model Meal_Planner.Pages.Meal.IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>Wow look at this. wowow</p>
+    <h1 class="display-4">Welcome to your personal meal planner!</h1>
+    <section class="d-flex flex-md-column align-items-center gap-2">
+        @foreach(var meal in Model.Meals)
+        {
+            <a class="btn btn-primary" asp-page="meal" asp-route-id="@meal.MealId">@Html.DisplayFor(modelItem => meal.Name)</a>
+        }
+        @* <div class="d-none"> *@
+        @*     @foreach(var ingredient in Model.Ingredients) *@
+        @*     { *@
+        @*         <div class="idkthisthing">@Html.DisplayFor(modelItem => ingredient.Name)</div> *@
+        @*     } *@
+
+        @* </div> *@
+    </section>
+
+    
 </div>

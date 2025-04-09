@@ -18,10 +18,14 @@ namespace Meal_Planner.Pages.RecipeIngredient
             _context = context;
         }
 
+        public IList<Meal_Planner.Models.Measurement> Measurements { get; set; } = default!;
+        public IList<Meal_Planner.Models.Ingredient> Ingredients { get; set; } = default!;
         public IActionResult OnGet()
         {
         ViewData["IngredientId"] = new SelectList(_context.Ingredients, "IngredientId", "Name");
         ViewData["ItemId"] = new SelectList(_context.FoodItems, "ItemId", "Name");
+            Measurements = _context.Measurements.ToList();
+            Ingredients = _context.Ingredients.ToList();
             return Page();
         }
 

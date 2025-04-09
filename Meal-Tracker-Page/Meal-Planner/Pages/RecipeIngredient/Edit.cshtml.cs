@@ -22,21 +22,21 @@ namespace Meal_Planner.Pages.RecipeIngredient
         [BindProperty]
         public Meal_Planner.Models.RecipeIngredient RecipeIngredient { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync(int? itemId, int? ingredientId)
         {
-            if (id == null)
+            if (itemId == null || ingredientId == null)
             {
                 return NotFound();
             }
 
-            var recipeingredient =  await _context.RecipeIngredients.FirstOrDefaultAsync(m => m.ItemId == id);
+            var recipeingredient =  await _context.RecipeIngredients.FirstOrDefaultAsync(m => m.ItemId == itemId && m.IngredientId == ingredientId);
             if (recipeingredient == null)
             {
                 return NotFound();
             }
             RecipeIngredient = recipeingredient;
-           ViewData["IngredientId"] = new SelectList(_context.Ingredients, "IngredientId", "IngredientId");
-           ViewData["ItemId"] = new SelectList(_context.FoodItems, "ItemId", "ItemId");
+            ViewData["IngredientId"] = new SelectList(_context.Ingredients, "IngredientId", "IngredientId");
+            ViewData["ItemId"] = new SelectList(_context.FoodItems, "ItemId", "ItemId");
             return Page();
         }
 
