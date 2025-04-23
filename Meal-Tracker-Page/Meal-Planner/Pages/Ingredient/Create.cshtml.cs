@@ -20,7 +20,7 @@ namespace Meal_Planner.Pages.Ingredient
 
         public IActionResult OnGet()
         {
-        ViewData["MId"] = new SelectList(_context.Measurements, "MId", "MId");
+        ViewData["MId"] = new SelectList(_context.Measurements, "MId", "Name");
             return Page();
         }
 

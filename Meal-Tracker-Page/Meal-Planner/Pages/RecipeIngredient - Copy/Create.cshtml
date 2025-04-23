@@ -1,0 +1,98 @@
+@page
+@model Meal_Planner.Pages.RecipeIngredient.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<sctipt>
+    let x = 4
+    let y = 3
+
+</sctipt>
+
+<h1>Create</h1>
+
+<h4>RecipeIngredient</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RecipeIngredient.Amount" class="control-label"></label>
+                <input asp-for="RecipeIngredient.Amount" class="form-control" />
+                <p  class="ms-text">
+
+                </p>
+                <span asp-validation-for="RecipeIngredient.Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RecipeIngredient.ItemId" class="control-label"></label>
+                <select asp-for="RecipeIngredient.ItemId" class ="form-control" asp-items="ViewBag.ItemId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="RecipeIngredient.IngredientId" class="control-label"></label>
+                <select asp-for="RecipeIngredient.IngredientId" class ="form-control ingredient-select" asp-items="ViewBag.IngredientId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="d-none data">
+    <div id="in">
+        @foreach(var ingredient in Model.Ingredients)
+        {
+            <p>@Html.DisplayFor(modelItem => ingredient.Name),@Html.DisplayFor(modelItem => ingredient.IngredientId),@Html.DisplayFor(modelItem => ingredient.MId)</p>
+        }
+    </div>
+    <div id="ms">
+        @foreach (var measurement in Model.Measurements)
+        {
+            <p>@Html.DisplayFor(modelItem => measurement.Name),@Html.DisplayFor(modelItem => measurement.MId)</p>
+        }
+    </div>
+
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+<script defer>
+    function getdata(){
+        const data = {
+        in: {},
+        ms: {}
+        }
+        debugger
+        let dataelm = document.querySelector(".data")
+        let mselem = dataelm.querySelector("#ms")
+        let inelem = dataelm.querySelector("#in")
+        for (const measurement of mselem.children){
+            data.ms[measurement.innerHTML.split(",")[1]] = measurement.innerHTML.split(",")[0]
+        }
+        for (const ingredient of inelem.children){
+            data.in[ingredient.innerHTML.split(",")[1]] = ingredient.innerHTML.split(",")[2]
+        }
+        return data
+    }
+
+        function changems() {
+            const mstext = document.querySelector(".ms-text")
+            let data = getdata()
+            let sel = document.querySelector(".ingredient-select")
+            mstext.innerHTML = data.ms[data.in[sel.value]]
+        }
+        changems()
+        document.querySelector(".ingredient-select").addEventListener("change", changems)
+
+    
+</script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
