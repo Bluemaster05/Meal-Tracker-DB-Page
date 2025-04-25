@@ -5,18 +5,29 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@* <h1>Index</h1> *@
 
-<div id="silly-list">
-</div>
-<form hx-get="/Htmx/Silly" hx-target="#silly-list" hx-swap="beforeend">
-    <input name="itemId" />
-    <button>Submit</button>
-</form>
+@* <div id="silly-list"> *@
+@* </div> *@
+@* <form hx-get="/Htmx/Silly" hx-target="#silly-list" hx-swap="beforeend"> *@
+@*     <input name="itemId" /> *@
+@*     <button>Submit</button> *@
+@* </form> *@
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+@* <p> *@
+@*     <a asp-page="Create">Create New</a> *@
+@* </p> *@
+<h2>Food Items</h2>
+<ul>
+    @foreach (var item in Model.FoodItems)
+    {
+        <li>
+            @Html.DisplayFor(modelitem => item.Name) - @Html.DisplayFor(modelitem => item.Description) <a asp-page="/MealItems/Delete" asp-route-id="@item.ItemId" class="btn btn-sm btn-danger">Delete</a>
+        </li>
+    }
+</ul>
+
+<h2>Ingredients in Food Items</h2>
 <table class="table">
     <thead>
         <tr>
@@ -24,10 +35,10 @@
                 @Html.DisplayNameFor(model => model.RecipeIngredient[0].Amount)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RecipeIngredient[0].Ingredient)
+                @Html.DisplayNameFor(model => model.RecipeIngredient[0].Item)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RecipeIngredient[0].Item)
+                @Html.DisplayNameFor(model => model.RecipeIngredient[0].Ingredient)
             </th>
             <th></th>
         </tr>
@@ -39,14 +50,14 @@
                 @Html.DisplayFor(modelItem => item.Amount)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Ingredient.Name)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Item.Name)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Ingredient.Name)
+            </td>
+            <td>
                 <a href="RecipeIngredient/Edit?itemId=@item.ItemId&ingredientId=@item.IngredientId">Edit</a> |
-                <a href="RecipeIngredient/Delete?itemId=@item.ItemId&ingredientId=@item.IngredientId">DeleteMe</a
+                <a class="btn btn-sm btn-danger" href="RecipeIngredient/Delete?itemId=@item.ItemId&ingredientId=@item.IngredientId">DeleteMe</a
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>

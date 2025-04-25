@@ -20,8 +20,12 @@ namespace Meal_Planner.Pages.RecipeIngredient
 
         public IList<Meal_Planner.Models.RecipeIngredient> RecipeIngredient { get;set; } = default!;
 
+        public IList<Meal_Planner.Models.FoodItem> FoodItems { get; set; } = default!;
+
         public async Task OnGetAsync()
         {
+            FoodItems = await _context.FoodItems.ToListAsync();
+
             RecipeIngredient = await _context.RecipeIngredients
                 .Include(r => r.Ingredient)
                 .Include(r => r.Item).ToListAsync();

@@ -1,0 +1,30 @@
+﻿@page
+@model Meal_Planner.Pages.MealView.IndexModel
+@{
+}
+
+<h1>Meals & Food Items</h1>
+
+<p>
+    <a asp-page="/Meals/Create" class="btn btn-primary">Add New Meal</a>
+</p>
+
+@foreach (var meal in Model.Meals)
+{
+    <div class="meal-block">
+        <div class="d-flex flex-row gap-3">
+            <h2>@meal.Name</h2> 
+            <a style="" asp-page="/Meals/delete" asp-route-id="@meal.MealId" class="btn btn-sm btn-danger">Delete</a>
+        </div>
+        <ul>
+            @foreach (var item in meal.Items)
+            {
+                <li>
+                    @item.Name
+                    <a asp-page="/MealItems/Delete" asp-route-id="@item.ItemId" class="btn btn-sm btn-danger">Delete</a>
+                </li>
+            }
+        </ul>
+        <a asp-page="/Meals/AddItem" asp-route-mealId="@meal.MealId" class="btn btn-sm btn-success">Add Food Item</a>
+    </div>
+}

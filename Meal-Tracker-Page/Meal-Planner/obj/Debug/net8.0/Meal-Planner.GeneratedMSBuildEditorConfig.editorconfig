@@ -60,28 +60,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWVhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/Meals/AddItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhbHNcQWRkSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/Meals/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhbHNcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/Meals/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhbHNcZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/Meals/Deleteitem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhbHNcRGVsZXRlaXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/Meals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVhbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/RecipeIngredient - Copy/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudCAtIENvcHlcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/RecipeIngredient - Copy/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudCAtIENvcHlcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/RecipeIngredient - Copy/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudCAtIENvcHlcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/RecipeIngredient - Copy/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudCAtIENvcHlcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/RecipeIngredient - Copy/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSW5ncmVkaWVudCAtIENvcHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/logan/OneDrive/Documents/GitHub/Meal-Tracker-DB-Page/Meal-Tracker-Page/Meal-Planner/Pages/RecipeIngredient/Create.cshtml]

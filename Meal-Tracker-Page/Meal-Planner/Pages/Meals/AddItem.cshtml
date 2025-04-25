@@ -1,0 +1,17 @@
+﻿@page
+@model Meal_Planner.Pages.MealItems.AddItemModel
+@{
+    ViewData["Title"] = "Add Food Item to Meal";
+}
+
+<h1>Add Food Item to @Model.Meal.Name</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="MealId" />
+    <div class="form-group">
+        <label asp-for="SelectedFoodItemId" class="control-label">Select Food Item</label>
+        <select asp-for="SelectedFoodItemId" class="form-control" asp-items="Model.FoodItems"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-page="/MealView/Index" class="btn btn-secondary">Cancel</a>
+</form>
