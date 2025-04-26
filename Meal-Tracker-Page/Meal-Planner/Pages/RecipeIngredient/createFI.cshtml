@@ -1,0 +1,32 @@
+﻿@page
+@model Meal_Planner.Pages.FoodItems.CreateModel
+
+@{
+    ViewData["Title"] = "Create Food Item";
+}
+
+<h1>Create New Food Item</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="FoodItem.Name" class="control-label"></label>
+        <input asp-for="FoodItem.Name" class="form-control" />
+        <span asp-validation-for="FoodItem.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FoodItem.Description" class="control-label"></label>
+        <input asp-for="FoodItem.Description" class="form-control" />
+        <span asp-validation-for="FoodItem.Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FoodItem.ServingSize" class="control-label"></label>
+        <input asp-for="FoodItem.ServingSize" class="form-control" />
+        <span asp-validation-for="FoodItem.ServingSize" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-page="/FoodItems/Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

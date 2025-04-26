@@ -26,78 +26,133 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Meal.MealId">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a class="btn btn-secondary btn-sm" asp-page="./Edit" asp-route-id="@Model.Meal.MealId">Edit</a> 
+    <a class="btn btn-primary btn-sm" asp-page="./Index">Back to List</a>
 </div>
 
 <hr />
 
-@* <h2>Ingredients in @Html.DisplayFor(model => model.Meal.Name)</h2> *@
-
-@* <ul> *@
-@*     @foreach(var ingr in Model.Ingredients) *@
-@*     { *@
-@*         <li>@Html.DisplayFor(modelItem => ingr.Name)--@Html.DisplayFor(modelItem => ingr.Calories)</li> *@
-@*     } *@
-@* </ul> *@
-<section class="hstack gap-3">
-
-<div class="p1">
-
+<div class="p-3">
     <h2>Ingredients in @Html.DisplayFor(model => model.Meal.Name)</h2>
 
-    @foreach (var item in Model.Meal.Items) 
-    { 
-    
-    <h4>@item?.Name</h4>
-    <ul>
-        @foreach (var ri in item.RecipeIngredients)
-        {
-            <li>
-                @ri?.Ingredient?.Name
-                @ri?.Amount
-                @ri?.Ingredient?.MIdNavigation.Description
-            </li>
-        }
-    </ul>
-} 
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Food Item</th>
+                <th>Recipe Ingredients</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Meal.Items)
+            {
+                <tr>
+                    <td class="align-middle"><strong>@item?.Name</strong></td>
+                    <td>
+                        <table class="table table-sm mb-0">
+                            <thead class="table-secondary">
+                                <tr>
+                                    <th>Ingredient</th>
+                                    <th>Amount</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var ri in item.RecipeIngredients)
+                                {
+                                    <tr>
+                                        <td>@ri?.Ingredient?.Name</td>
+                                        <td>@ri?.Amount</td>
+                                        <td>@ri?.Ingredient?.MIdNavigation.Description</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
-<div class="p2">
-    <h2>Total Ingredients in @Html.DisplayFor(model => model.Meal.Name)</h2>
-    @foreach (KeyValuePair<string, DataEntry> ing in Model.IngList)
-    {
-        <ul>
-            <li>
-                @ing.Key
-                @ing.Value.Amount
-                @ing.Value.Unit
-            </li>
-        </ul>
-    }
+
+<div class="d-flex gap-4 align-items-start">
+
+
+
+    <div class="p-3">
+        <h2>Total Ingredients in @Html.DisplayFor(model => model.Meal.Name)</h2>
+
+        <table class="table w-auto">
+            <thead class="table">
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Amount</th>
+                    <th>Unit</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (KeyValuePair<string, DataEntry> ing in Model.IngList)
+                {
+                    <tr>
+                        <td>@ing.Key</td>
+                        <td>@ing.Value.Amount</td>
+                        <td>@ing.Value.Unit</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="p-3">
+        <h2>Per Serving Nutritional Totals</h2>
+
+        <table class="table w-auto">
+            <thead class="table">
+                <tr>
+                    <th>Nutrient</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Calories</td><td>@Model.MealNutritionsum.Calories.ToString("0.##")</td></tr>
+                <tr><td>Protein</td><td>@Model.MealNutritionsum.Protein.ToString("0.##") g</td></tr>
+                <tr><td>Sodium</td><td>@Model.MealNutritionsum.Sodium.ToString("0.##") g</td></tr>
+                <tr><td>Total Sugars</td><td>@Model.MealNutritionsum.TotalSugers.ToString("0.##") g</td></tr>
+                <tr><td>Total Fat</td><td>@Model.MealNutritionsum.TotalFat.ToString("0.##")  g</td></tr>
+                <tr><td>Dietary Fiber</td><td>@Model.MealNutritionsum.DietaryFiber.ToString("0.##") g</td></tr>
+            </tbody>
+        </table>
+    </div>
+
 </div>
-</section>
 
-<h2>Per Serving Nutrional Totals</h2>
-<ul>
-    <li>Calories: @Model.MealNutritionsum.Calories </li>
-    <li>Protein: @Model.MealNutritionsum.Protein grams</li>
-    <li>Soduum: @Model.MealNutritionsum.Sodium grams</li>
-    <li>Total Sugers: @Model.MealNutritionsum.TotalSugers grams</li>
-    <li>Total Fat: @Model.MealNutritionsum.TotalFat grams</li>
-    <li>DietaryFiber @Model.MealNutritionsum.DietaryFiber grams</li>
-</ul>
+<div class="p-3">
+    <h2>Nutrition Information Per Item</h2>
 
-<h2>Nutrition Information Per Item</h2>
-@foreach (var item in Model.NutritionByItemList)
-{
-    <h3>@item.Key</h3>
-    <ul>
-        <li>Calories: @item.Value.Calories</li>
-        <li>Protein: @item.Value.Protein</li>
-        <li>Sodium: @item.Value.Sodium</li>
-        <li>Total Sugars: @item.Value.TotalSugers</li>
-        <li>Total Fat: @item.Value.TotalFat</li>
-        <li>Dietary Fiber: @item.Value.DietaryFiber</li>
-    </ul>
-}
-
+    <table class="table">
+        <thead class="table">
+            <tr>
+                <th>Food Item</th>
+                <th>Calories</th>
+                <th>Protein (g)</th>
+                <th>Sodium (g)</th>
+                <th>Total Sugars (g)</th>
+                <th>Total Fat (g)</th>
+                <th>Dietary Fiber (g)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.NutritionByItemList)
+            {
+                <tr>
+                    <td>@item.Key</td>
+                    <td>@item.Value.Calories.ToString("0.##")</td>
+                    <td>@item.Value.Protein.ToString("0.##")</td>
+                    <td>@item.Value.Sodium.ToString("0.##")</td>
+                    <td>@item.Value.TotalSugers.ToString("0.##")</td>
+                    <td>@item.Value.TotalFat.ToString("0.##")</td>
+                    <td>@item.Value.DietaryFiber.ToString("0.##")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

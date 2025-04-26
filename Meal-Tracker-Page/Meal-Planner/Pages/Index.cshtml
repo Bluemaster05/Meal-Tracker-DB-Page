@@ -4,21 +4,17 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to your personal meal planner!</h1>
-    <section class="d-flex flex-md-column align-items-center gap-2">
-        @foreach(var meal in Model.Meals)
+<div class="text-center py-5">
+    <h1 class="display-4 mb-4">Welcome to your personal meal planner!</h1>
+
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+        @foreach (var meal in Model.Meals)
         {
-            <a class="btn btn-primary" asp-page="meal" asp-route-id="@meal.MealId">@Html.DisplayFor(modelItem => meal.Name)</a>
+            <a class="btn btn-outline-primary btn-lg px-4 py-2 shadow-sm"
+               asp-page="meal"
+               asp-route-id="@meal.MealId">
+                @meal.Name
+            </a>
         }
-        @* <div class="d-none"> *@
-        @*     @foreach(var ingredient in Model.Ingredients) *@
-        @*     { *@
-        @*         <div class="idkthisthing">@Html.DisplayFor(modelItem => ingredient.Name)</div> *@
-        @*     } *@
-
-        @* </div> *@
-    </section>
-
-    
+    </div>
 </div>
