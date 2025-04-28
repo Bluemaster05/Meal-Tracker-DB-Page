@@ -60,7 +60,7 @@ namespace Meal_Planner.Pages.MealItems
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("/MealView/Index");
+            return RedirectToPage("/Meals/Index");
         }
     }
 }

@@ -1,4 +1,26 @@
 ﻿@page
-@model Meal_Planner.Pages.Meals.DeleteitemModel
+@model Meal_Planner.Pages.Meals.RemoveItemModel
 @{
+    ViewData["Title"] = "Delete Food Item";
 }
+
+<h1>Remove Food Item</h1>
+
+<h3>Are you sure you want to Remove this item?</h3>
+<div>
+    <h4>Food Item</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Meal Name</dt>
+        <dd class="col-sm-10">@Model.Meal.Name</dd>
+        <dt class="col-sm-2">Food Name</dt>
+        <dd class="col-sm-10">@Model.FoodItem.Name</dd>
+    </dl>
+
+    <form method="post">
+        <input type='hidden' asp-for="MealId" />
+        <input type="hidden" asp-for="FoodItemId" />
+        <input type="submit" value="Remove" class="btn btn-danger" /> |
+        <a asp-page="./Index">Cancel</a>
+    </form>
+</div>

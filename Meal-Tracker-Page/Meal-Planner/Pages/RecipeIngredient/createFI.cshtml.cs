@@ -14,7 +14,7 @@ namespace Meal_Planner.Pages.FoodItems
         }
 
         [BindProperty]
-        public FoodItem FoodItem { get; set; } = new FoodItem();
+        public Meal_Planner.Models.FoodItem FoodItem { get; set; } = new Meal_Planner.Models.FoodItem();
 
         public IActionResult OnGet()
         {
@@ -31,7 +31,7 @@ namespace Meal_Planner.Pages.FoodItems
             _context.FoodItems.Add(FoodItem);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("/FoodItems/Index");
+            return RedirectToPage("./Index");
         }
     }
 }

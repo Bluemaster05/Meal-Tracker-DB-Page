@@ -15,7 +15,7 @@ namespace Meal_Planner.Pages.FoodItems
         }
 
         [BindProperty]
-        public FoodItem FoodItem { get; set; } = default!;
+        public Meal_Planner.Models.FoodItem FoodItem { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

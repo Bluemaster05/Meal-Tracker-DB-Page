@@ -58,8 +58,7 @@
                                 <tr>
                                     <td>@item.Name</td>
                                     <td>
-                                        <a asp-page="/MealItems/Delete"
-                                           asp-route-id="@item.ItemId"
+                                        <a href="Meals/Deleteitem?itemId=@item.ItemId&mealId=@meal.MealId"
                                            class="btn btn-sm btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>

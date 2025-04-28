@@ -1,73 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\",
+  "WorkspaceRootPath": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\ingredient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\ingredient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\ingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\ingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\ingredient\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\ingredient\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\deletefi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\deletefi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\deletefi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\deletefi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\createfi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\createfi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\createfi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\createfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\createfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\createfi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\additem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\additem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\deletefi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\deletefi.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\deleteitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\deleteitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\deleteitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\models\\recipeingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:models\\recipeingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\ingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\ingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\recipeingredient\\deletefi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\recipeingredient\\deletefi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|c:\\users\\logan\\onedrive\\documents\\github\\meal-tracker-db-page\\meal-tracker-page\\meal-planner\\pages\\meals\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B431FC21-3FCE-440E-BA6E-87585A5D1C4A}|Meal-Planner.csproj|solutionrelative:pages\\meals\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -77,227 +81,226 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 184,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 180,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\Create.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Create.cshtml",
+              "RelativeToolTip": "Pages\\RecipeIngredient\\Create.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvycAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T20:22:04.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "meal.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\meal.cshtml",
+              "RelativeDocumentMoniker": "Pages\\meal.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\meal.cshtml",
+              "RelativeToolTip": "Pages\\meal.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T20:18:58.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "createFI.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\createFI.cshtml.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml.cs",
+              "RelativeToolTip": "Pages\\RecipeIngredient\\createFI.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:57:30.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\RecipeIngredient\\Create.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:56:23.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Ingredient\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Ingredient\\Delete.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:15:00.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Deleteitem.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Deleteitem.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Meals\\Deleteitem.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Deleteitem.cshtml",
+              "RelativeToolTip": "Pages\\Meals\\Deleteitem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T14:06:15.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "createFI.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml",
+              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\createFI.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml",
+              "RelativeToolTip": "Pages\\RecipeIngredient\\createFI.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T21:57:07.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "deleteFI.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
+              "RelativeToolTip": "Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T22:01:51.278Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Meals\\Index.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml",
               "RelativeToolTip": "Pages\\Meals\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAUAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-25T23:01:07.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "deleteFI.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml",
-              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\deleteFI.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml",
-              "RelativeToolTip": "Pages\\RecipeIngredient\\deleteFI.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T22:01:11.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "createFI.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\createFI.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml.cs",
-              "RelativeToolTip": "Pages\\RecipeIngredient\\createFI.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "DocumentIndex": 11,
+              "Title": "create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Meals\\create.cshtml.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Meals\\create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T21:57:30.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "createFI.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml",
-              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\createFI.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\createFI.cshtml",
-              "RelativeToolTip": "Pages\\RecipeIngredient\\createFI.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T21:57:07.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\Index.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Index.cshtml",
-              "RelativeToolTip": "Pages\\RecipeIngredient\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T15:24:27.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:56:09.741Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABqAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-24T14:57:36.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "deleteFI.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
-              "RelativeToolTip": "Pages\\RecipeIngredient\\deleteFI.cshtml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T22:01:51.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Ingredient\\Index.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Ingredient\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAoAAAA",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Ingredient\\Create.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Ingredient\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T22:45:26.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddItem.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\AddItem.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Meals\\AddItem.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\AddItem.cshtml.cs",
-              "RelativeToolTip": "Pages\\Meals\\AddItem.cshtml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwDoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:27:42.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\delete.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Meals\\delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\delete.cshtml.cs",
-              "RelativeToolTip": "Pages\\Meals\\delete.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwC8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:07:18.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Deleteitem.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Deleteitem.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Meals\\Deleteitem.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Deleteitem.cshtml",
-              "RelativeToolTip": "Pages\\Meals\\Deleteitem.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T14:06:15.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AddItem.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\AddItem.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Meals\\AddItem.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\AddItem.cshtml",
-              "RelativeToolTip": "Pages\\Meals\\AddItem.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T14:05:16.838Z"
+              "WhenOpened": "2025-04-28T20:25:05.387Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Meals\\delete.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\delete.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\delete.cshtml",
               "RelativeToolTip": "Pages\\Meals\\delete.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-24T14:04:55.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Meals\\create.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Meals\\create.cshtml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA0wCAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:56:09.741Z"
+              "DocumentIndex": 13,
+              "Title": "AddItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\AddItem.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Meals\\AddItem.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\AddItem.cshtml",
+              "RelativeToolTip": "Pages\\Meals\\AddItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T14:05:16.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "create.cshtml",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Meals\\create.cshtml",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\create.cshtml",
-              "RelativeToolTip": "Pages\\Meals\\create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T13:55:27.322Z"
+              "DocumentIndex": 14,
+              "Title": "RecipeIngredient.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Models\\RecipeIngredient.cs",
+              "RelativeDocumentMoniker": "Models\\RecipeIngredient.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Models\\RecipeIngredient.cs",
+              "RelativeToolTip": "Models\\RecipeIngredient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T19:12:59.581Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "deleteFI.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml",
+              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\deleteFI.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\deleteFI.cshtml",
+              "RelativeToolTip": "Pages\\RecipeIngredient\\deleteFI.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T22:01:11.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Ingredient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Ingredient\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Ingredient\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T22:45:26.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Meals\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\Meals\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Meals\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T11:47:09.533Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 184,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\RecipeIngredient\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Pages\\RecipeIngredient\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\RecipeIngredient\\Index.cshtml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T15:31:20.52Z",
-              "EditorCaption": ""
             }
           ]
         }
