@@ -28,7 +28,9 @@ namespace Meal_Planner.Pages.Ingredient
                 return NotFound();
             }
 
-            var ingredient = await _context.Ingredients.FirstOrDefaultAsync(m => m.IngredientId == id);
+            var ingredient = await _context.Ingredients
+                .Include(i => i.RecipeIngredients)
+                .FirstOrDefaultAsync(m => m.IngredientId == id);
 
             if (ingredient == null)
             {
@@ -48,10 +50,14 @@ namespace Meal_Planner.Pages.Ingredient
                 return NotFound();
             }
 
-            var ingredient = await _context.Ingredients.FindAsync(id);
+            var ingredient = await _context.Ingredients
+        .Include(i => i.RecipeIngredients)
+        .FirstOrDefaultAsync(i => i.IngredientId == id);
             if (ingredient != null)
             {
                 Ingredient = ingredient;
+                //ingredient.RecipeIngredients.Clear();
+                _context.RecipeIngredients.RemoveRange(ingredient.RecipeIngredients);
                 _context.Ingredients.Remove(Ingredient);
                 await _context.SaveChangesAsync();
             }

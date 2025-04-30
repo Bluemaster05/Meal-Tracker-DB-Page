@@ -11,6 +11,6 @@
             Unit = unit;
         }
 
-        public DataEntry() { } // Needed if model binding or serialization
+        public DataEntry() { }
     }
 }

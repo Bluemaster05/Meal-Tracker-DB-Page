@@ -30,6 +30,7 @@ namespace Meal_Planner.Pages.Ingredient
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            // Model State having issues with this one and prevents creation even tho new table is valid
             //if (!ModelState.IsValid)
             //{
             //    Console.WriteLine("AHHHHh");
@@ -45,7 +46,6 @@ namespace Meal_Planner.Pages.Ingredient
             } catch (Exception ex)
             {
                 Console.WriteLine(ex);
-                Console.WriteLine("YEAH IT DIDNT WORK MY GUY");
             }
 
 

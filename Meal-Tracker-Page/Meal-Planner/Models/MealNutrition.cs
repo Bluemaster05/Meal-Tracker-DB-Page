@@ -22,6 +22,6 @@
             DietaryFiber = dietaryfiber;
         }
 
-        public MealNutrition() { } // Needed if model binding or serialization
+        public MealNutrition() { }
     }
 }
