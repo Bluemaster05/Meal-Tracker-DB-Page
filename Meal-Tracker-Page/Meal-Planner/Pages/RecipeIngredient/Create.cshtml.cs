@@ -35,6 +35,7 @@ namespace Meal_Planner.Pages.RecipeIngredient
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            //Model State Issues with this relation :(
             //if (!ModelState.IsValid)
             //{
 
@@ -56,11 +57,6 @@ namespace Meal_Planner.Pages.RecipeIngredient
             //    ViewData["ItemId"] = new SelectList(_context.FoodItems, "ItemId", "Name");
             //    return Page();
             //}
-
-            Console.WriteLine("✅ ModelState is valid");
-            Console.WriteLine($"📦 IngredientId: {RecipeIngredient.IngredientId}");
-            Console.WriteLine($"📦 ItemId: {RecipeIngredient.ItemId}");
-            Console.WriteLine($"📦 Amount: {RecipeIngredient.Amount}");
 
             _context.RecipeIngredients.Add(RecipeIngredient);
             await _context.SaveChangesAsync();

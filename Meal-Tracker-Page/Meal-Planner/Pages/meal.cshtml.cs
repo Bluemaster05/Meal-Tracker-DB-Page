@@ -36,7 +36,6 @@ namespace Meal_Planner.Pages
                 return NotFound();
             }
 
-            //var ingredients = await _context.Meals.Include(m => m.Items).ThenInclude(mi => mi.RecipeIngredients).ThenInclude(ri => ri.Ingredient).FirstOrDefaultAsync(m => m.MealId == id);
             var meal = await _context.Meals
                 .Include(m => m.Items)
                 .ThenInclude(mi => mi.RecipeIngredients)

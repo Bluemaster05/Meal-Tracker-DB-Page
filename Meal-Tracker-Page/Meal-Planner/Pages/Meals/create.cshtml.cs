@@ -30,7 +30,7 @@ namespace Meal_Planner.Pages.Meals
             _context.Meals.Add(Meal);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("/Meals");
+            return RedirectToPage("./Index");
         }
     }
 }

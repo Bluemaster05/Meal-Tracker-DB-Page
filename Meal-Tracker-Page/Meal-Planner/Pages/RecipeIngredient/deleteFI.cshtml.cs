@@ -47,10 +47,7 @@ namespace Meal_Planner.Pages.FoodItems
                 return NotFound();
             }
 
-            // Remove related RecipeIngredients
             _context.RecipeIngredients.RemoveRange(foodItem.RecipeIngredients);
-
-            // Clear Meals relationship (for many-to-many)
             foodItem.Meals.Clear();
 
             _context.FoodItems.Remove(foodItem);

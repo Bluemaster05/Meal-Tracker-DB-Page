@@ -41,7 +41,7 @@ namespace Meal_Planner.Pages.Ingredient
             try
             {
                 _context.Ingredients.Add(Ingredient);
-                Console.WriteLine("Does this print??");
+                //Console.WriteLine("Does this print??");
                 await _context.SaveChangesAsync();
             } catch (Exception ex)
             {

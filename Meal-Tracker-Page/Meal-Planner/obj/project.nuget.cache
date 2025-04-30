@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MfqPpwd+kMM=",
+  "dgSpecHash": "NyzwUfLgkq0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Meal-Planner.csproj",
+  "projectFilePath": "C:\\Users\\logan\\Documents\\GitHub\\Meal-Tracker-DB-Page\\Meal-Tracker-Page\\Meal-Planner\\Meal-Planner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\logan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\logan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

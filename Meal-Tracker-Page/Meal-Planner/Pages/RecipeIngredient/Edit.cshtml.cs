@@ -44,6 +44,7 @@ namespace Meal_Planner.Pages.RecipeIngredient
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            //Model State Issue with this relation :(
             //if (!ModelState.IsValid)
             //{
             //    return Page();

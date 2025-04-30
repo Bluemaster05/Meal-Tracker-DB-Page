@@ -53,14 +53,13 @@ namespace Meal_Planner.Pages.MealItems
             if (meal == null || foodItem == null)
                 return NotFound();
 
-            // Prevent duplicates
             if (!meal.Items.Any(i => i.ItemId == foodItem.ItemId))
             {
                 meal.Items.Add(foodItem);
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("/Meals/Index");
+            return RedirectToPage("./Index");
         }
     }
 }

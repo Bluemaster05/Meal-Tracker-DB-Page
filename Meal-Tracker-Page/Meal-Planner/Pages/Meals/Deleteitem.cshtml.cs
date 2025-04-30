@@ -69,7 +69,7 @@ namespace Meal_Planner.Pages.Meals
 
             if (item != null)
             {
-                meal.Items.Remove(item); // remove from Meal.Items
+                meal.Items.Remove(item);
                 await _context.SaveChangesAsync();
             }
 
